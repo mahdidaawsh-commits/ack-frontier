@@ -1,0 +1,271 @@
+{
+  "configuration": {
+    "deadline": 2,
+    "reports": [
+      {
+        "checkpoint": 0,
+        "sha256": "3b27d8e929b74b9153d350bfe49985a23cd048a29c3da1bdab7ab3cc57aef93a",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/uncertain-zero.json"
+      },
+      {
+        "checkpoint": 1,
+        "sha256": "5e66d99304193c5613faa3a703e7611b43174c09b34704d0112ca99bb20d8dca",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/empty-one.json"
+      },
+      {
+        "checkpoint": 2,
+        "sha256": "e55b8e6f1ac404944d85b6545ef6c4af2ca5e75669ac380e1775cba4a5fcf1a1",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/empty-two.json"
+      }
+    ],
+    "repository": "mahdidaawsh-commits/ack-frontier",
+    "series": "packing-line"
+  },
+  "cursor": 3,
+  "frontier": [
+    [
+      -1,
+      -1
+    ],
+    [
+      2,
+      -1
+    ]
+  ],
+  "history": [
+    {
+      "after": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "before": [
+        [
+          -1,
+          -1
+        ]
+      ],
+      "checkpoint": 0,
+      "evidence": {
+        "checkpoint": 0,
+        "rows": [
+          {
+            "anchors": [
+              0
+            ],
+            "event": "amber_alarm",
+            "value": "UNKNOWN"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "event": "amber_ack",
+            "value": "NO"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "event": "blue_alarm",
+            "value": "NO"
+          },
+          {
+            "anchors": [
+              2
+            ],
+            "event": "blue_ack",
+            "value": "NO"
+          }
+        ],
+        "sha256": "3b27d8e929b74b9153d350bfe49985a23cd048a29c3da1bdab7ab3cc57aef93a",
+        "source": {
+          "checkpoint": 0,
+          "clauses": [
+            "This report concerns checkpoint zero of the packing-line series. The amber alarm log is incomplete, so this report cannot establish whether an amber alarm actually occurred.",
+            "It is explicitly confirmed that no actual blue alarm occurred in this checkpoint.",
+            "No human acknowledgement occurred on amber or blue in this checkpoint. The amber alarm uncertainty does not affect this confirmed acknowledgement absence."
+          ],
+          "series": "packing-line"
+        },
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/uncertain-zero.json"
+      },
+      "summary": {
+        "channels": [
+          "PENDING",
+          "CLEAR"
+        ],
+        "status": "PENDING",
+        "world_count": 2
+      }
+    },
+    {
+      "after": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "before": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "checkpoint": 1,
+      "evidence": {
+        "checkpoint": 1,
+        "rows": [
+          {
+            "anchors": [
+              1,
+              2
+            ],
+            "event": "amber_alarm",
+            "value": "NO"
+          },
+          {
+            "anchors": [
+              1,
+              2
+            ],
+            "event": "amber_ack",
+            "value": "NO"
+          },
+          {
+            "anchors": [
+              1,
+              2
+            ],
+            "event": "blue_alarm",
+            "value": "NO"
+          },
+          {
+            "anchors": [
+              1,
+              2
+            ],
+            "event": "blue_ack",
+            "value": "NO"
+          }
+        ],
+        "sha256": "5e66d99304193c5613faa3a703e7611b43174c09b34704d0112ca99bb20d8dca",
+        "source": {
+          "checkpoint": 1,
+          "clauses": [
+            "This is the complete event inventory for checkpoint one of the packing-line series.",
+            "No actual alarm was raised on amber or blue, and no human acknowledgement occurred on either channel, during this checkpoint.",
+            "The channel event inventory is exhaustive. The inventory does not resolve uncertainty in reports about earlier checkpoints."
+          ],
+          "series": "packing-line"
+        },
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/empty-one.json"
+      },
+      "summary": {
+        "channels": [
+          "PENDING",
+          "CLEAR"
+        ],
+        "status": "PENDING",
+        "world_count": 2
+      }
+    },
+    {
+      "after": [
+        [
+          -1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      "before": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "checkpoint": 2,
+      "evidence": {
+        "checkpoint": 2,
+        "rows": [
+          {
+            "anchors": [
+              1
+            ],
+            "event": "amber_alarm",
+            "value": "NO"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "event": "amber_ack",
+            "value": "NO"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "event": "blue_alarm",
+            "value": "NO"
+          },
+          {
+            "anchors": [
+              1
+            ],
+            "event": "blue_ack",
+            "value": "NO"
+          }
+        ],
+        "sha256": "e55b8e6f1ac404944d85b6545ef6c4af2ca5e75669ac380e1775cba4a5fcf1a1",
+        "source": {
+          "checkpoint": 2,
+          "clauses": [
+            "This is the complete event inventory for checkpoint two of the packing-line series.",
+            "No actual alarm was raised on amber or blue, and no human acknowledgement occurred on either channel, during this checkpoint.",
+            "Messages referring to earlier alarms are historical. No additional relevant event occurred in this checkpoint."
+          ],
+          "series": "packing-line"
+        },
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/empty-two.json"
+      },
+      "summary": {
+        "channels": [
+          "AT_RISK",
+          "CLEAR"
+        ],
+        "status": "AT_RISK",
+        "world_count": 2
+      }
+    }
+  ],
+  "lifecycle": "EXHAUSTED",
+  "summary": {
+    "channels": [
+      "AT_RISK",
+      "CLEAR"
+    ],
+    "status": "AT_RISK",
+    "world_count": 2
+  }
+}

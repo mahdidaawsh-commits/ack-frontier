@@ -1,0 +1,877 @@
+[
+  {
+    "label": "timely-advance-0",
+    "index": 0,
+    "transaction": "0x3deeaf52d40c9c17e1e4b79419ee944aef0f5af2e085c349de1c1cddabd5e2ed",
+    "state_before": {
+      "configuration": {
+        "deadline": 2,
+        "reports": [
+          {
+            "checkpoint": 0,
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          {
+            "checkpoint": 1,
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          {
+            "checkpoint": 2,
+            "sha256": "a661fc632fe7949fec27544bbaadfbfab67b1a26396d9780a590236bc6700cd2",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-two.json"
+          }
+        ],
+        "repository": "mahdidaawsh-commits/ack-frontier",
+        "series": "packing-line"
+      },
+      "cursor": 0,
+      "frontier": [
+        [
+          -1,
+          -1
+        ]
+      ],
+      "history": [],
+      "lifecycle": "ACTIVE",
+      "summary": {
+        "channels": [
+          "CLEAR",
+          "CLEAR"
+        ],
+        "status": "CLEAR",
+        "world_count": 1
+      }
+    },
+    "state": {
+      "configuration": {
+        "deadline": 2,
+        "reports": [
+          {
+            "checkpoint": 0,
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          {
+            "checkpoint": 1,
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          {
+            "checkpoint": 2,
+            "sha256": "a661fc632fe7949fec27544bbaadfbfab67b1a26396d9780a590236bc6700cd2",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-two.json"
+          }
+        ],
+        "repository": "mahdidaawsh-commits/ack-frontier",
+        "series": "packing-line"
+      },
+      "cursor": 1,
+      "frontier": [
+        [
+          0,
+          0
+        ]
+      ],
+      "history": [
+        {
+          "after": [
+            [
+              0,
+              0
+            ]
+          ],
+          "before": [
+            [
+              -1,
+              -1
+            ]
+          ],
+          "checkpoint": 0,
+          "evidence": {
+            "checkpoint": 0,
+            "rows": [
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "amber_ack",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "blue_ack",
+                "value": "NO"
+              }
+            ],
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "source": {
+              "checkpoint": 0,
+              "clauses": [
+                "This complete event inventory covers only checkpoint zero of the packing-line series. Amber and blue identify separate alarm channels.",
+                "At this checkpoint an actual alarm was raised on amber, and an actual alarm was raised on blue.",
+                "No human acknowledgement occurred on either channel in this checkpoint. The transport system delivered both alerts; delivery is not a human acknowledgement."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          "summary": {
+            "channels": [
+              "PENDING",
+              "PENDING"
+            ],
+            "status": "PENDING",
+            "world_count": 1
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "summary": {
+        "channels": [
+          "PENDING",
+          "PENDING"
+        ],
+        "status": "PENDING",
+        "world_count": 1
+      }
+    }
+  },
+  {
+    "label": "timely-advance-1",
+    "index": 1,
+    "transaction": "0x7b3c4c4660185489ae546304fdbe25301500098c6be0690f8e65ac73fedfef5e",
+    "state_before": {
+      "configuration": {
+        "deadline": 2,
+        "reports": [
+          {
+            "checkpoint": 0,
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          {
+            "checkpoint": 1,
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          {
+            "checkpoint": 2,
+            "sha256": "a661fc632fe7949fec27544bbaadfbfab67b1a26396d9780a590236bc6700cd2",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-two.json"
+          }
+        ],
+        "repository": "mahdidaawsh-commits/ack-frontier",
+        "series": "packing-line"
+      },
+      "cursor": 1,
+      "frontier": [
+        [
+          0,
+          0
+        ]
+      ],
+      "history": [
+        {
+          "after": [
+            [
+              0,
+              0
+            ]
+          ],
+          "before": [
+            [
+              -1,
+              -1
+            ]
+          ],
+          "checkpoint": 0,
+          "evidence": {
+            "checkpoint": 0,
+            "rows": [
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "amber_ack",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "blue_ack",
+                "value": "NO"
+              }
+            ],
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "source": {
+              "checkpoint": 0,
+              "clauses": [
+                "This complete event inventory covers only checkpoint zero of the packing-line series. Amber and blue identify separate alarm channels.",
+                "At this checkpoint an actual alarm was raised on amber, and an actual alarm was raised on blue.",
+                "No human acknowledgement occurred on either channel in this checkpoint. The transport system delivered both alerts; delivery is not a human acknowledgement."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          "summary": {
+            "channels": [
+              "PENDING",
+              "PENDING"
+            ],
+            "status": "PENDING",
+            "world_count": 1
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "summary": {
+        "channels": [
+          "PENDING",
+          "PENDING"
+        ],
+        "status": "PENDING",
+        "world_count": 1
+      }
+    },
+    "state": {
+      "configuration": {
+        "deadline": 2,
+        "reports": [
+          {
+            "checkpoint": 0,
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          {
+            "checkpoint": 1,
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          {
+            "checkpoint": 2,
+            "sha256": "a661fc632fe7949fec27544bbaadfbfab67b1a26396d9780a590236bc6700cd2",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-two.json"
+          }
+        ],
+        "repository": "mahdidaawsh-commits/ack-frontier",
+        "series": "packing-line"
+      },
+      "cursor": 2,
+      "frontier": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "history": [
+        {
+          "after": [
+            [
+              0,
+              0
+            ]
+          ],
+          "before": [
+            [
+              -1,
+              -1
+            ]
+          ],
+          "checkpoint": 0,
+          "evidence": {
+            "checkpoint": 0,
+            "rows": [
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "amber_ack",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "blue_ack",
+                "value": "NO"
+              }
+            ],
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "source": {
+              "checkpoint": 0,
+              "clauses": [
+                "This complete event inventory covers only checkpoint zero of the packing-line series. Amber and blue identify separate alarm channels.",
+                "At this checkpoint an actual alarm was raised on amber, and an actual alarm was raised on blue.",
+                "No human acknowledgement occurred on either channel in this checkpoint. The transport system delivered both alerts; delivery is not a human acknowledgement."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          "summary": {
+            "channels": [
+              "PENDING",
+              "PENDING"
+            ],
+            "status": "PENDING",
+            "world_count": 1
+          }
+        },
+        {
+          "after": [
+            [
+              -1,
+              1
+            ]
+          ],
+          "before": [
+            [
+              0,
+              0
+            ]
+          ],
+          "checkpoint": 1,
+          "evidence": {
+            "checkpoint": 1,
+            "rows": [
+              {
+                "anchors": [
+                  0,
+                  2
+                ],
+                "event": "amber_alarm",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_ack",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  0,
+                  2
+                ],
+                "event": "blue_alarm",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_ack",
+                "value": "NO"
+              }
+            ],
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "source": {
+              "checkpoint": 1,
+              "clauses": [
+                "This is the complete event inventory for checkpoint one of the packing-line series.",
+                "The operator acknowledged the amber channel in this checkpoint. No human acknowledgement occurred on blue.",
+                "No new alarm was raised on either amber or blue in this checkpoint. Both channels had alarms at checkpoint zero; that statement is historical and not a new alarm."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          "summary": {
+            "channels": [
+              "CLEAR",
+              "PENDING"
+            ],
+            "status": "PENDING",
+            "world_count": 1
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "summary": {
+        "channels": [
+          "CLEAR",
+          "PENDING"
+        ],
+        "status": "PENDING",
+        "world_count": 1
+      }
+    }
+  },
+  {
+    "label": "timely-advance-2",
+    "index": 2,
+    "transaction": "0x13f4c470046f39253ffe2d4fb9750c83407e12f0f2802e7f3c0e994bae402665",
+    "state_before": {
+      "configuration": {
+        "deadline": 2,
+        "reports": [
+          {
+            "checkpoint": 0,
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          {
+            "checkpoint": 1,
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          {
+            "checkpoint": 2,
+            "sha256": "a661fc632fe7949fec27544bbaadfbfab67b1a26396d9780a590236bc6700cd2",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-two.json"
+          }
+        ],
+        "repository": "mahdidaawsh-commits/ack-frontier",
+        "series": "packing-line"
+      },
+      "cursor": 2,
+      "frontier": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "history": [
+        {
+          "after": [
+            [
+              0,
+              0
+            ]
+          ],
+          "before": [
+            [
+              -1,
+              -1
+            ]
+          ],
+          "checkpoint": 0,
+          "evidence": {
+            "checkpoint": 0,
+            "rows": [
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "amber_ack",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "blue_ack",
+                "value": "NO"
+              }
+            ],
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "source": {
+              "checkpoint": 0,
+              "clauses": [
+                "This complete event inventory covers only checkpoint zero of the packing-line series. Amber and blue identify separate alarm channels.",
+                "At this checkpoint an actual alarm was raised on amber, and an actual alarm was raised on blue.",
+                "No human acknowledgement occurred on either channel in this checkpoint. The transport system delivered both alerts; delivery is not a human acknowledgement."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          "summary": {
+            "channels": [
+              "PENDING",
+              "PENDING"
+            ],
+            "status": "PENDING",
+            "world_count": 1
+          }
+        },
+        {
+          "after": [
+            [
+              -1,
+              1
+            ]
+          ],
+          "before": [
+            [
+              0,
+              0
+            ]
+          ],
+          "checkpoint": 1,
+          "evidence": {
+            "checkpoint": 1,
+            "rows": [
+              {
+                "anchors": [
+                  0,
+                  2
+                ],
+                "event": "amber_alarm",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_ack",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  0,
+                  2
+                ],
+                "event": "blue_alarm",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_ack",
+                "value": "NO"
+              }
+            ],
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "source": {
+              "checkpoint": 1,
+              "clauses": [
+                "This is the complete event inventory for checkpoint one of the packing-line series.",
+                "The operator acknowledged the amber channel in this checkpoint. No human acknowledgement occurred on blue.",
+                "No new alarm was raised on either amber or blue in this checkpoint. Both channels had alarms at checkpoint zero; that statement is historical and not a new alarm."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          "summary": {
+            "channels": [
+              "CLEAR",
+              "PENDING"
+            ],
+            "status": "PENDING",
+            "world_count": 1
+          }
+        }
+      ],
+      "lifecycle": "ACTIVE",
+      "summary": {
+        "channels": [
+          "CLEAR",
+          "PENDING"
+        ],
+        "status": "PENDING",
+        "world_count": 1
+      }
+    },
+    "state": {
+      "configuration": {
+        "deadline": 2,
+        "reports": [
+          {
+            "checkpoint": 0,
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          {
+            "checkpoint": 1,
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          {
+            "checkpoint": 2,
+            "sha256": "a661fc632fe7949fec27544bbaadfbfab67b1a26396d9780a590236bc6700cd2",
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-two.json"
+          }
+        ],
+        "repository": "mahdidaawsh-commits/ack-frontier",
+        "series": "packing-line"
+      },
+      "cursor": 3,
+      "frontier": [
+        [
+          -1,
+          -1
+        ]
+      ],
+      "history": [
+        {
+          "after": [
+            [
+              0,
+              0
+            ]
+          ],
+          "before": [
+            [
+              -1,
+              -1
+            ]
+          ],
+          "checkpoint": 0,
+          "evidence": {
+            "checkpoint": 0,
+            "rows": [
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "amber_ack",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_alarm",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "blue_ack",
+                "value": "NO"
+              }
+            ],
+            "sha256": "1bf32196a4daaf899ba1b8d5d80630f79a6a1321b80079ce1d2497d7bd1c3841",
+            "source": {
+              "checkpoint": 0,
+              "clauses": [
+                "This complete event inventory covers only checkpoint zero of the packing-line series. Amber and blue identify separate alarm channels.",
+                "At this checkpoint an actual alarm was raised on amber, and an actual alarm was raised on blue.",
+                "No human acknowledgement occurred on either channel in this checkpoint. The transport system delivered both alerts; delivery is not a human acknowledgement."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-zero.json"
+          },
+          "summary": {
+            "channels": [
+              "PENDING",
+              "PENDING"
+            ],
+            "status": "PENDING",
+            "world_count": 1
+          }
+        },
+        {
+          "after": [
+            [
+              -1,
+              1
+            ]
+          ],
+          "before": [
+            [
+              0,
+              0
+            ]
+          ],
+          "checkpoint": 1,
+          "evidence": {
+            "checkpoint": 1,
+            "rows": [
+              {
+                "anchors": [
+                  0,
+                  2
+                ],
+                "event": "amber_alarm",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_ack",
+                "value": "YES"
+              },
+              {
+                "anchors": [
+                  0,
+                  2
+                ],
+                "event": "blue_alarm",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_ack",
+                "value": "NO"
+              }
+            ],
+            "sha256": "c9dbf0495e3e4c990393afb4be72f9e45f7342e0899cad5f02fd535034a862d4",
+            "source": {
+              "checkpoint": 1,
+              "clauses": [
+                "This is the complete event inventory for checkpoint one of the packing-line series.",
+                "The operator acknowledged the amber channel in this checkpoint. No human acknowledgement occurred on blue.",
+                "No new alarm was raised on either amber or blue in this checkpoint. Both channels had alarms at checkpoint zero; that statement is historical and not a new alarm."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-one.json"
+          },
+          "summary": {
+            "channels": [
+              "CLEAR",
+              "PENDING"
+            ],
+            "status": "PENDING",
+            "world_count": 1
+          }
+        },
+        {
+          "after": [
+            [
+              -1,
+              -1
+            ]
+          ],
+          "before": [
+            [
+              -1,
+              1
+            ]
+          ],
+          "checkpoint": 2,
+          "evidence": {
+            "checkpoint": 2,
+            "rows": [
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "amber_alarm",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "amber_ack",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  2
+                ],
+                "event": "blue_alarm",
+                "value": "NO"
+              },
+              {
+                "anchors": [
+                  1
+                ],
+                "event": "blue_ack",
+                "value": "YES"
+              }
+            ],
+            "sha256": "a661fc632fe7949fec27544bbaadfbfab67b1a26396d9780a590236bc6700cd2",
+            "source": {
+              "checkpoint": 2,
+              "clauses": [
+                "This is the complete event inventory for checkpoint two of the packing-line series.",
+                "The operator acknowledged blue in this checkpoint. No human acknowledgement occurred on amber in this checkpoint.",
+                "No actual alarm was raised on amber or blue in this checkpoint. A training example saying raise amber is hypothetical and did not occur."
+              ],
+              "series": "packing-line"
+            },
+            "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/ack-frontier/21690c4ac5964cdf530414fca778c8e2cfd282d7/records/timely-two.json"
+          },
+          "summary": {
+            "channels": [
+              "CLEAR",
+              "CLEAR"
+            ],
+            "status": "CLEAR",
+            "world_count": 1
+          }
+        }
+      ],
+      "lifecycle": "EXHAUSTED",
+      "summary": {
+        "channels": [
+          "CLEAR",
+          "CLEAR"
+        ],
+        "status": "CLEAR",
+        "world_count": 1
+      }
+    }
+  }
+]

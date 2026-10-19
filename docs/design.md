@@ -4,6 +4,8 @@
 
 The deployer freezes a reporter repository, series, deadline `w` in 1..3 and 1..16 ordered commit-pinned report URLs/SHA-256 hashes. Applications may publish real operational checkpoint reports and consume the resulting monitor status. The contract owns report acquisition, independent validator classification, exact temporal propagation and immutable history. The publisher owns the underlying observations; consensus cannot establish that a dishonest publisher reported physical reality truthfully.
 
+This is a **retrospective audit** of an archived run. All reports must exist before deployment; there is no future-report registration or source amendment path. Sequential onchain advancement makes the audit reproducible and its intermediate uncertainty visible, rather than claiming to ingest future observations or prevent a live operational failure.
+
 Each source is UTF-8 JSON with exactly `{series, checkpoint, clauses}` and 1..12 prose clauses. `checkpoint` must equal the current zero-based cursor. Raw bytes are hash checked, limited to 16 KB and parsed with duplicate-key rejection. A missing or mismatched report reverts; it never becomes a fabricated all-NO checkpoint. Calling advance is permissionless, but the caller cannot provide event labels or change the report descriptor.
 
 The schema's period/index is deterministic. Interpreting the prose is consequential nondeterministic work: was an alarm actually raised, was a human acknowledgement actually made, does a transport receipt merely report delivery, is an earlier alarm historical, and is an event's absence explicitly established? Validators independently acquire and classify the full source; storing only a hash or verifying a leader's JSON shape is insufficient.
